@@ -1,0 +1,36 @@
+{
+  "name": "maprova-online-api-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto para gerenciar aplicação de prova e questionário online, este projeto contempla apenas a API desenvolvido em NodeJS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gisiona/maprova-online-api-nodejs.git"
+  },
+  "keywords": [
+    "API",
+    "Educação",
+    "NodeJS",
+    "TesteOnline",
+    "Treinamento"
+  ],
+  "author": "Gisiona Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gisiona/maprova-online-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/Gisiona/maprova-online-api-nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.13",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  }
+}
